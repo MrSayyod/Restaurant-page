@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSayyod/Restaurant-page.git"
+  },
+  "author": "MrSayyod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSayyod/Restaurant-page/issues"
+  },
+  "homepage": "https://github.com/MrSayyod/Restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
