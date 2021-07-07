@@ -44,5 +44,5 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const contact = document.getElementById('contact')
   homePage.addEventListener('click', showHomePage)
   menu.addEventListener('click', showMenu)
-  contact.addEventListener('contact', showContact)
+  contact.addEventListener('click', showContact)
 })

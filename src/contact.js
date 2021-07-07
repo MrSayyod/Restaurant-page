@@ -1,4 +1,4 @@
-import { nodeCreator } from "./nodeCreator"
+import { nodeCreator, chainAppend } from "./nodeCreator"
 
 const Contact = (()=> {
   const addContact = ()=> {
