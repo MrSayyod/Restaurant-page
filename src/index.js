@@ -5,6 +5,7 @@ import Home from './home'
 // import { doc } from "prettier";
 import Menu from "./menu";
 import Footer from './footer'
+import Contact from './contact'
 
 Navbar.addNavLink()
 Content.addContent()
@@ -31,10 +32,10 @@ const showMenu = () => {
   Menu.addMenuPage()
 }
 
-// const showContact = () => {
-//   clearContent()
-//   Contact.addContact()
-// }
+const showContact = () => {
+  clearContent()
+  Contact.addContact()
+}
 
 
 document.addEventListener('DOMContentLoaded', ()=> {
@@ -43,5 +44,5 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const contact = document.getElementById('contact')
   homePage.addEventListener('click', showHomePage)
   menu.addEventListener('click', showMenu)
-  // contact.addEventListener('contact', showContact)
+  contact.addEventListener('contact', showContact)
 })
