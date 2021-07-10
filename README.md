@@ -9,6 +9,7 @@ Restaurant-page [Project by Microverse] (Created by Sayyod Saidov)
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
+* [Live Demo](#live-demo)
 * [Getting Started](#getting-started)
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
@@ -26,6 +27,10 @@ The main goal of this project is to show the understanding of the benefits of mo
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+# Live Demo
+[Live Demo Link](https://raw.githack.com/MrSayyod/Restaurant-page/feature/dist/index.html)
 
 # Getting Started
 
