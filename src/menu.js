@@ -6,24 +6,24 @@ const Menu = (()=> {
     const menuDiv = nodeCreator('div', {id: 'menu-div-container'})
     const foodMenu = [
       {
-        name: 'Food1',
-        recipe: 'Recipe 1',
-        price: 'Price 1'
+        name: 'Grilled Pizza',
+        recipe: "Pizza dough, extra-virgin olive oil, mozzarella, tomato, cherry tomatoes, ricotta, basil, red pepper flakes",
+        price: '7.99$'
       },
       {
-        name: 'Food2',
-        recipe: 'Recipe 2',
-        price: 'Price 2'
+        name: 'Beef Stew',
+        recipe: "Vegetable oil, beef chuck stew meat, extra-virgin olive oil, onion, carrots, celery, Kosher salt, ground black pepper, garlic, tomato paste,low-sodium beef broth, red wine, Worcestershire sauce, dried or fresh thyme leaves, bay leaves, baby potatoes, frozen peas, chopped parsley",
+        price: '9.59$'
       },
       {
-        name: 'Food3',
-        recipe: 'Recipe 3',
-        price: 'Price 3'
+        name: 'Salisbury Steak',
+        recipe: "Ground beef, egg, bread crumbs, ketchup, Worcestershire sauce, garlic clove, kosher salt, ground black pepper, extra-virgin olive oil, unsalted butter, onion, thyme, mushrooms, flour, tomato paste, beef stock",
+        price: '15.99$'
       },
       {
-        name: 'Food4',
-        recipe: 'Recipe 4',
-        price: 'Price 4'
+        name: 'Meatball sub soup',
+        recipe: "Ground beef, Italian bread crumbs, garlic, Italian parsley, red pepper flakes, kosher salt, ground black pepper, extra-virgin olive oil, onion, clove garlic, tomato paste, crushed tomatoes, low-sodium beef broth, skim milk, mozzarella, grated Parmesan, dried oregano, Baguette slices",
+        price: '11.20$'
       },
     ]
     const menuSection = nodeCreator('section', {class: 'menu-section'})
