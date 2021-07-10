@@ -1,8 +1,8 @@
-import { nodeCreator, chainAppend } from "./nodeCreator"
+import { nodeCreator, chainAppend } from './nodeCreator';
 
-const Contact = (()=> {
-  const addContact = ()=> {
-    const contactDiv = nodeCreator('div', {id: 'contact-div-container'})
+const Contact = (() => {
+  const addContact = () => {
+    const contactDiv = nodeCreator('div', { id: 'contact-div-container' });
     contactDiv.innerHTML = `
     <h1>Contact Us</h1>
     <p>Phone: +1 234 567-8900</p>
@@ -14,11 +14,11 @@ const Contact = (()=> {
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
-    `
-    const contentDiv = document.getElementsByClassName('content-div')[0]
-    chainAppend([contentDiv, contactDiv])
-  }
-  return {addContact}
-})()
+    `;
+    const contentDiv = document.getElementsByClassName('content-div')[0];
+    chainAppend([contentDiv, contactDiv]);
+  };
+  return { addContact };
+})();
 
-export default Contact
+export default Contact;

@@ -1,9 +1,9 @@
-import { nodeCreator, chainAppend } from "./nodeCreator";
+import { nodeCreator, chainAppend } from './nodeCreator';
 
-const Footer = (()=> {
-  const addFooter = ()=> {
-    const footer = nodeCreator('footer')
-    const container = document.getElementById('container')
+const Footer = (() => {
+  const addFooter = () => {
+    const footer = nodeCreator('footer');
+    const container = document.getElementById('container');
     footer.innerHTML = `
     <div>
     © SSS 2021
@@ -14,10 +14,10 @@ const Footer = (()=> {
     <a href="https://twitter.com/sayyodsaidov" target="blank" class="icons"><i class="fab fa-twitter"></i></a>
     <a href="https://www.facebook.com/sayyod" target="blank" class="icons"><i class="fab fa-facebook"></i></a>
   </div>
-    `
-    chainAppend([container, footer])
-  }
-  return {addFooter}
-})()
+    `;
+    chainAppend([container, footer]);
+  };
+  return { addFooter };
+})();
 
-export default Footer
+export default Footer;

@@ -1,12 +1,12 @@
-import { nodeCreator, chainAppend } from "./nodeCreator";
+import { nodeCreator, chainAppend } from './nodeCreator';
 
-const Content = (()=> {
-  const addContent = ()=> {
-    const container = document.getElementById('container')
-    const divForContent = nodeCreator('div', {class: 'content-div'})
-    chainAppend([container, divForContent])
-  }
-  return {addContent}
-})()
+const Content = (() => {
+  const addContent = () => {
+    const container = document.getElementById('container');
+    const divForContent = nodeCreator('div', { class: 'content-div' });
+    chainAppend([container, divForContent]);
+  };
+  return { addContent };
+})();
 
-export default Content
+export default Content;
