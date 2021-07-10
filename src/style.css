@@ -44,3 +44,42 @@ body {
 .nav-btn:hover {
   background-color: gold;
 }
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: silver;
+  color: #fff;
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.fab {
+  color: #fff;
+}
+
+.fa-github:hover {
+  color: #000;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;  
+}
+
+.fa-twitter:hover {
+  color: #007bff;
+}
+
+.fa-facebook:hover {
+  color: #0056b3;
+}
+
+footer .icons {
+  margin: 10px;
+}
