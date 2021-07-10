@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/restaurant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#container {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.nav-divs {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: 900;
+  background-color: silver;
+  margin: 0;
+}
+
+.nav-btn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  border-radius: 30%;
+  font-weight: 900;
+  outline: none;
+  padding: 10px;
+}
+
+.nav-btn:hover {
+  background-color: gold;
+}
