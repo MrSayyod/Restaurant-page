@@ -79,7 +79,7 @@ Feel free to check the [issues page](https://github.com/MrSayyod/Restaurant-page
 Give a :star2: if you like this project!
 ## License
 
-This project is [MIT](./LICENSE) licensed.
+This project is MIT licensed.
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
 * [The odin project](https://theodinproject.com)
