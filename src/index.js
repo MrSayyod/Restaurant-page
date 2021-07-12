@@ -1,8 +1,6 @@
 import Navbar from './navbar';
 import Content from './content';
 import Home from './home';
-// import menu from './menu'
-// import { doc } from "prettier";
 import Menu from './menu';
 import Footer from './footer';
 import Contact from './contact';

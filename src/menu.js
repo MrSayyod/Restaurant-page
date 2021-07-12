@@ -1,4 +1,3 @@
-// import { node } from "webpack";
 import { nodeCreator, chainAppend } from './nodeCreator';
 
 const Menu = (() => {
