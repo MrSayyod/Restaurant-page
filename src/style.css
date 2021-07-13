@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/restaurant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#container {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.nav-divs {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 900;
+  background-color: silver;
+  margin: 0;
+}
+
+.nav-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  border-radius: 30%;
+  font-weight: 900;
+  outline: none;
+  padding: 10px;
+}
+
+.nav-btn:hover {
+  background-color: gold;
+}
+
+#home-div-container,
+#contact-div-container {
+  background-color: #fff;
+  text-align: center;
+  width: 50%;
+  margin: 200px auto 0;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.menu-section {
+  /* margin-top: 6rem; */
+  width: 100%;
+  height: calc(100vh - 2.5rem);
+  background: url(./assets/menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.menu-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.menu-section ul {
+  z-index: 1;
+  width: 60%;
+  list-style: none;
+  position: relative;
+
+  /* top: 2.5rem; */
+}
+
+.menu-section .food-div {
+  width: 100%;
+}
+
+.menu-section .header-for-food-div {
+  display: flex;
+  justify-content: space-between;
+
+  /* font-family: 'Kaushan Script', cursive; */
+
+  /* font-size: 1.5rem; */
+  color: #ffb03b;
+  padding: 5px 0;
+}
+
+.menu-section ul li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.menu-section ul li::before {
+  content: '';
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 100px;
+  margin: 8px;
+}
+
+.menu-section ul li:nth-child(1)::before {
+  background-image: url(./assets/pizza.png);
+}
+
+.menu-section ul li:nth-child(2)::before {
+  background-image: url(./assets/beef-stew.jpg);
+}
+
+.menu-section ul li:nth-child(3)::before {
+  background-image: url(./assets/salisbury-steak.jpg);
+}
+
+.menu-section ul li:nth-child(4)::before {
+  background-image: url(./assets/meatball-sub-soup.jpg);
+}
+
+#contact-div-container {
+  margin-top: 9rem;
+}
+
+#contact-div-container div ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer .fab {
+  color: #fff;
+}
+
+#contact-div-container div ul li a .fab {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 0.5rem;
+}
+
+.menu-btn {
+  margin-top: 1rem;
+  background-color: royalblue;
+  border-color: royalblue;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.menu-btn:focus {
+  outline: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: silver;
+  color: #fff;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+#contact-div-container div ul li a .fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-github:hover {
+  color: #000;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-twitter:hover,
+#contact-div-container div ul li a .fa-twitter:hover {
+  color: #007bff;
+}
+
+.fa-facebook:hover,
+#contact-div-container div ul li a .fa-facebook:hover {
+  color: #0056b3;
+}
+
+footer .icons {
+  margin: 1rem;
+}
