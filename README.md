@@ -48,7 +48,8 @@ git clone https://github.com/MrSayyod/Restaurant-page.git
    1. Clone the project into your local machine using `git clone` command or download the zip file.
    2. Go into the project directory using `cd directory name` command.
    3. Run `npm install`.
-   4. Open index.html file via your default browser.
+   4. Run `nmp run build`.
+   5. Open index.html file via your default browser.
    
 
 # Author

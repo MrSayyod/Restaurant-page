@@ -3,7 +3,7 @@ import { nodeCreator, chainAppend } from './nodeCreator';
 const Footer = (() => {
   const addFooter = () => {
     const footer = nodeCreator('footer');
-    const container = document.getElementById('container');
+    const container = document.getElementById('content');
     footer.innerHTML = `
     <div>
     © SSS 2021

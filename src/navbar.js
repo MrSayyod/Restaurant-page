@@ -2,7 +2,7 @@ import { nodeCreator, chainAppend } from './nodeCreator';
 
 const Navbar = (() => {
   const addNavLink = () => {
-    const container = document.getElementById('container');
+    const container = document.getElementById('content');
     const childDiv = nodeCreator('div', { class: 'nav-divs' });
     const home = nodeCreator('button', { id: 'home', class: 'nav-btn' }, 'Home');
     const menu = nodeCreator('button', { id: 'menu', class: 'nav-btn' }, 'Menu');
